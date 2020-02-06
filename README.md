@@ -35,3 +35,15 @@ You will need the following dependencies installed on your shell
 
 GNU Make
 GNU Compiler (gcc)
+The MLX (for the visualizer, optionnal)
+
+1. `make`
+2. `./lem-in [map]` (`maps` folder )
+3. optionnal -l for the number of lines of the solution -v for visual debug (only works for human-made maps, the coordinate system does not work for random genreated maps)
+
+
+You can generate random maps with the `generator` script in the `maps` directory
+
+Ex:
+
+`./generator` gives you yhe usage of the script 
